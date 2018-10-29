@@ -1,0 +1,32 @@
+$text-color: #002d56
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html, body
+  height: 100%
+
+body
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  font-family: 'Open Sans'
+
+h1
+  font-size: 8em
+  margin: auto
+  color: $text-color
+
+p
+  margin-bottom: 2em
+
+a
+  color: $text-color
+  text-decoration: none
+  transition: 200ms color
+
+  &:hover, &:focus
+    color: #cd313f
