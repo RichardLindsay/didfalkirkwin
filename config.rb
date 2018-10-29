@@ -46,5 +46,9 @@ page '/*.txt', layout: false
 # end
 
 activate :gh_pages do |gh_pages|
+<<<<<<< HEAD
   gh_pages.remote = 'https://github.com/RichardLindsay/didfalkirkwin.git'
+=======
+  gh_pages.remote = 'git@github.com:RichardLindsay/didfalkirkwin.git'
+>>>>>>> Update deploy stuff
 end
