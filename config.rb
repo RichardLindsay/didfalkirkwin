@@ -44,3 +44,7 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+activate :gh_pages do |gh_pages|
+  gh_pages.remote = 'https://github.com/RichardLindsay/didfalkirkwin.git'
+end
