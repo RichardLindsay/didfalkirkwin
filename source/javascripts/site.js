@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var homeTeamScore = result.matchesTeam.match[0].homeTeamScore;
         var awayTeamScore = result.matchesTeam.match[0].awayTeamScore;
 
-        if (homeTeamNumber === 343) {
+        if (homeTeamNumber == 343) {
           if (homeTeamScore > awayTeamScore) {
             document.querySelector('h1').innerText = 'Yes.';
           }
