@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'https://cpug0736ma.execute-api.us-east-1.amazonaws.com/api');
+  xhr.open('GET', 'https://z19zp87mli.execute-api.us-east-1.amazonaws.com/api');
   xhr.onload = function() {
     if (xhr.status === 200) {
       setTimeout(function() {
